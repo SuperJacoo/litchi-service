@@ -16,9 +16,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableAsync
 //定时任务
 @EnableScheduling
-public class XpayApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(XpayApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 }
