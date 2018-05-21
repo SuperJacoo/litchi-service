@@ -13,7 +13,7 @@ public class WebMcvConfig extends WebMvcConfigurerAdapter {
      */
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
-        
+        registry.addViewController("/login").setViewName("/login"); //主页
     }
     /**
      * 添加静态资源配置
