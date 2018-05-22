@@ -210,9 +210,11 @@
                                              style="margin: 0px; width: 100%; height: 48px; font-size: 18px; line-height: 48px;">
                                     </div>
                                     <div class="border" style="margin-top: 10px;border-bottom: 1px solid #ccc;"></div>
-                                    <div class="footer">
+                                    <div class="footer" style="text-align: center;">
                                         <div class="other" style="margin: 20px 5px 0 0;width: auto;font-size: 12px;cursor: default;color: #999;">其它账号登录：
-                                            <a><img src="assets/images/other-login.png" style="height: 15px;cursor: pointer;"></a>
+                                            <a><img src="assets/images/wechart.png" style="height: 15px;cursor: pointer;margin-left: 10px;"></a>
+                                            <a><img src="assets/images/qq.png" style="height: 15px;cursor: pointer;margin-left: 10px;"></a>
+                                            <a><img src="assets/images/webo.png" style="height: 15px;cursor: pointer;margin-left: 10px;"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -307,10 +309,10 @@
 
             var data = {
                 username: $('#userName').val(),
-                    password: $('#passWord').val(),
-                    geetest_challenge: validate.geetest_challenge,
-                    geetest_validate: validate.geetest_validate,
-                    geetest_seccode: validate.geetest_seccode
+                password: $('#passWord').val(),
+                geetest_challenge: validate.geetest_challenge,
+                geetest_validate: validate.geetest_validate,
+                geetest_seccode: validate.geetest_seccode
             };
 
             $.ajax({
