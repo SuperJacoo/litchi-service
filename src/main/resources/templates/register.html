@@ -12,7 +12,7 @@
     <title>荔枝科技</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="favicon.ico">
-
+    <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
     <link rel="stylesheet" href="assets/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/iconfont.css">
@@ -186,6 +186,13 @@
                                                    placeholder="请输入您的密码"/>
                                         </div>
                                     </div>
+                                    <div class="form-group">
+                                        <div class="input">
+                                            <input class="" id="repPassWord" name="repPassWord"
+                                                   type="password" maxlength="20"
+                                                   placeholder="请再输入一次您的密码"/>
+                                        </div>
+                                    </div>
 
                                     <div class="form-group">
                                         <div id="captcha-box">
@@ -198,21 +205,19 @@
                                             <span class="el-checkbox__input is-checked" style="white-space: nowrap;outline: 0;line-height: 1;vertical-align: middle;">
                                                 <input type="checkbox" checked="checked" class="el-checkbox__original" value="" tyle="background-color: #20a0ff;border-color: #0190fe;">
                                             </span>
-                                            <span style="font-size: 14px;padding-left: 5px;color: #999;">记住密码</span>
                                         </label>
-                                        <a href="javascript:;" class="register" style="padding: 1px 10px 0;border-right: 1px solid #ccc;margin-left: 120px;">注册账号</a>
-                                        <a href="javascript:;" class="forget" style="padding: 1px 0px 0px 10px;">忘记密码?</a>
+                                        <span style="font-size: 14px;padding-left: 5px;color: #999;">我已阅读并同意遵守 <a style="cursor: pointer;">法律声明</a> 和 <a style="cursor: pointer;">隐私条款</a></span>
                                     </div>
 
                                     <div style="margin-top: 25px;">
                                         <input type="button" class="btn" id="popup-submit"
-                                             class="main-btn" value="登录"
+                                             class="main-btn" value="注册"
                                              style="margin: 0px; width: 100%; height: 48px; font-size: 18px; line-height: 48px;">
                                     </div>
                                     <div class="border" style="margin-top: 10px;border-bottom: 1px solid #ccc;"></div>
-                                    <div class="footer">
-                                        <div class="other" style="margin: 20px 5px 0 0;width: auto;font-size: 12px;cursor: default;color: #999;">其它账号登录：
-                                            <a><img src="assets/images/other-login.png" style="height: 15px;cursor: pointer;"></a>
+                                    <div class="footer" style="text-align: center;">
+                                        <div class="other" style="margin: 20px 5px 0 0;width: auto;font-size: 12px;cursor: default;color: #999;">如果您已拥有荔枝科技账号，则可在此
+                                            <a href="login">登陆</a>
                                         </div>
                                     </div>
                                 </div>
@@ -269,12 +274,9 @@
             </div>
         </div>
     </footer>
-
-
 </div>
 
 <!-- JS includes -->
-
 <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
 <script src="assets/js/vendor/bootstrap.min.js"></script>
 
