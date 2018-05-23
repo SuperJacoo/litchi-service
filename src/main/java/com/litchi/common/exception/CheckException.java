@@ -6,18 +6,18 @@ package com.litchi.common.exception;
  **/
 public class CheckException extends RuntimeException{
 
-    private Integer code;
+    private String code;
 
-    public CheckException(String message, Integer code) {
+    public CheckException(String message, String code) {
         super(message);
         this.code = code;
     }
 
-    public Integer getCode() {
+    public String getCode() {
         return code;
     }
 
-    public void setCode(Integer code) {
+    public void setCode(String code) {
         this.code = code;
     }
 }
