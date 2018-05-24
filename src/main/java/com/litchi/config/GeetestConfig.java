@@ -1,4 +1,4 @@
-package cn.exrick.config;
+package com.litchi.config;
 
 /**
  * GeetestWeb配置文件
