@@ -1,7 +1,7 @@
-package cn.exrick.controller;
+package com.litchi.controller.geetest;
 
-import cn.exrick.common.utils.GeetestLib;
-import cn.exrick.config.GeetestConfig;
+import com.litchi.common.utils.GeetestLib;
+import com.litchi.config.GeetestConfig;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

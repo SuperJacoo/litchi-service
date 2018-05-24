@@ -1,8 +1,8 @@
-package cn.exrick.common.task;
+package com.litchi.common.task;
 
-import cn.exrick.bean.Pay;
-import cn.exrick.dao.PayDao;
-import cn.exrick.service.PayService;
+import com.litchi.bean.Pay;
+import com.litchi.dao.PayDao;
+import com.litchi.service.PayService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

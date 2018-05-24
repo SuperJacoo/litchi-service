@@ -1,4 +1,4 @@
-package cn.exrick.common.utils;
+package com.litchi.common.utils;
 
 import com.google.common.collect.Maps;
 import org.springframework.cglib.beans.BeanMap;

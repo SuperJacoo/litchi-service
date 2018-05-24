@@ -1,4 +1,4 @@
-package cn.exrick.bean.dto;
+package com.litchi.bean.dto;
 
 import java.io.Serializable;
 import java.util.List;

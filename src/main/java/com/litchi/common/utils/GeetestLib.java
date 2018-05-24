@@ -1,4 +1,4 @@
-package cn.exrick.common.utils;
+package com.litchi.common.utils;
 
 import org.json.JSONException;
 import org.json.JSONObject;

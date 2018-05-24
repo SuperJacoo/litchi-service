@@ -1,4 +1,4 @@
-package cn.exrick.config;
+package com.litchi.config;
 
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;

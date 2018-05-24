@@ -1,6 +1,6 @@
-package cn.exrick.dao;
+package com.litchi.dao;
 
-import cn.exrick.bean.Pay;
+import com.litchi.bean.Pay;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

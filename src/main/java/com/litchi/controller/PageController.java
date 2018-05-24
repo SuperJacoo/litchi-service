@@ -1,4 +1,4 @@
-package cn.exrick.controller;
+package com.litchi.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

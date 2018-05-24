@@ -1,7 +1,7 @@
-package cn.exrick.common.utils;
+package com.litchi.common.utils;
 
 
-import cn.exrick.bean.dto.Result;
+import com.litchi.bean.dto.Result;
 
 /**
  * @author Exrick

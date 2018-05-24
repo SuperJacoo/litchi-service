@@ -1,7 +1,7 @@
-package cn.exrick.controller;
+package com.litchi.controller.login;
 
-import cn.exrick.common.utils.GeetestLib;
-import cn.exrick.config.GeetestConfig;
+import com.litchi.common.utils.GeetestLib;
+import com.litchi.config.GeetestConfig;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.ServletException;

@@ -1,4 +1,4 @@
-package cn.exrick.common.utils;
+package com.litchi.common.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

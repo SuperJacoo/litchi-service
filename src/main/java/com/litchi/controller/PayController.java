@@ -1,10 +1,11 @@
-package cn.exrick.controller;
+package com.litchi.controller;
 
-import cn.exrick.bean.Pay;
-import cn.exrick.bean.dto.DataTablesResult;
-import cn.exrick.bean.dto.Result;
+import com.litchi.bean.Pay;
+import com.litchi.bean.dto.DataTablesResult;
+import com.litchi.bean.dto.Result;
 import cn.exrick.common.utils.*;
-import cn.exrick.service.PayService;
+import com.litchi.service.PayService;
+import com.litchi.common.utils.*;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;

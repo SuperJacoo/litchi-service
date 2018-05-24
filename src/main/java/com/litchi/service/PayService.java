@@ -1,6 +1,6 @@
-package cn.exrick.service;
+package com.litchi.service;
 
-import cn.exrick.bean.Pay;
+import com.litchi.bean.Pay;
 
 import java.util.List;
 
