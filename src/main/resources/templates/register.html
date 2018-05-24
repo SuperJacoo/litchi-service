@@ -309,21 +309,22 @@
 
             var data = {
                 username: $('#userName').val(),
-                    password: $('#passWord').val(),
-                    geetest_challenge: validate.geetest_challenge,
-                    geetest_validate: validate.geetest_validate,
-                    geetest_seccode: validate.geetest_seccode
+                password: $('#passWord').val(),
+                repPassWord: $('#repPassWord').val(),
+                geetest_challenge: validate.geetest_challenge,
+                geetest_validate: validate.geetest_validate,
+                geetest_seccode: validate.geetest_seccode
             };
 
             $.ajax({
-                url: "login/verifyLogin", // 进行二次验证
+                url: "regist/verifyRegist", // 进行二次验证
                 type: "POST",
                 dataType: "json",
                 contentType:'application/json;charset=UTF-8',
                 data : JSON.stringify(data),
                 success: function (data) {
                     if (data && (data.status === "success")) {
-                        alert('登录成功');
+                        alert('注册成功');
                     } else {
                         alert('用户名或密码错误，请重新输入并完成验证');
                         captchaObj.reset();
